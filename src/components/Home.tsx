@@ -13,10 +13,10 @@ const Home = () => {
     maxBornYear: undefined,
     minBornYear: undefined,
     page: 0,
-    searchBy: "",
-    size: 20,
-    sort: "",
-    sortDir: "",
+    searchBy: undefined,
+    size: undefined,
+    sort: undefined,
+    sortDir: undefined,
   });
 
   const [searchQuery, setSearchQuery] = useState<string>("");

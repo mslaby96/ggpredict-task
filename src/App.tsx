@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./components/Home";
 import "react-toastify/dist/ReactToastify.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
